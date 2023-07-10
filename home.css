@@ -1,0 +1,75 @@
+body {
+    background-image: url(./pexels-spacex-586056.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tecnologia {
+    border-radius: 3%;
+    margin-top:100px ;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 300px;
+    color: black;
+}
+
+.tecnologia h1 {
+    padding: 40px;
+}
+
+.tecnologia p {
+    padding: 10px;
+    font-size: 26px;
+}
+
+.sobre {
+    border-radius: 3%;
+    margin-top:100px ;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 300px;
+    color: black;
+}
+
+.sobre h1 {
+    padding: 40px;
+}
+
+.sobre p {
+    padding: 10px;
+    font-size: 26px;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo p {
+    font-size: 20px;
+}
+
+.logo h1 {
+    font-size: 35px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .tecnologia {flex-direction:column ;
+        overflow: auto;
+    }
+    .sobre {flex-direction:column ;
+        overflow: auto;
+    }
+}

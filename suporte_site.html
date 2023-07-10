@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Mateus Polari" >
+    <meta name="description" content="Cards_de_preços">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="suporte.css">
+    <link rel="stylesheet" href="formulario.css">
+    <title>Cards</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            MyNet
+        </div>
+        <nav class="header-nav">
+            <ul class="header-nav__list">
+                <li><a href="home_site.html">Home</a></li>
+                <li><a href="planos_site.html">Planos</a></li>
+                <li><a href="suporte_site.html">Suporte</a></li>
+                <li><a href="contatos_site.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-formulario">
+        <h1 class="main-formulario__title">Suporte online</h1>
+        <h1>Preencha este fórmulario para tirar suas dúvidas</h1>
+        <form action="" autocomplete="off">
+            <fieldset>
+                <label for="name">Nome:</label>
+                <input class="main-formulario__campo" name="name" type="text" id="name" placeholder="Digete seu nome completo">
+                <br>
+                <br>
+                <label for="email">E-mail:</label>
+                <input class="main-formulario__campo" name="email" type="email" id="email" placeholder="Digete seu E-mail">
+                <br>
+                <br>
+                <label for="mensagem">Dúvida:</label>
+                <textarea class="main-formulario__campo" name="mensagem" rows="7" maxlength="1000" minlength="20" type="text" id="mensagem" placeholder="Digete sua dúvida"> </textarea> 
+                <br>
+                <br>
+                <input class="btn" type="submit">
+            </fieldset>
+        </form>
+    </main>
+
+    <main class="main-suporte">
+            <section class="faq-section">
+                <h1>Perguntas Frequentes</h1>
+                <details>
+                    <summary>Pergunta frequente 1</summary>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi eius numquam quam deleniti alias pariatur laudantium sequi illum veritatis tempora consequuntur quia atque modi omnis quasi ducimus consectetur, rem eos!</p>
+                </details>
+                <details>
+                    <summary>Pergunta frequente 2</summary>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi eius numquam quam deleniti alias pariatur laudantium sequi illum veritatis tempora consequuntur quia atque modi omnis quasi ducimus consectetur, rem eos!</p>
+                </details>
+                <details>
+                    <summary>Pergunta frequente 3</summary>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi eius numquam quam deleniti alias pariatur laudantium sequi illum veritatis tempora consequuntur quia atque modi omnis quasi ducimus consectetur, rem eos!</p>
+                </details>
+                <details>
+                    <summary>Pergunta frequente 4</summary>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi eius numquam quam deleniti alias pariatur laudantium sequi illum veritatis tempora consequuntur quia atque modi omnis quasi ducimus consectetur, rem eos!</p>
+                </details>
+                <details>
+                    <summary>Pergunta frequente 5</summary>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi eius numquam quam deleniti alias pariatur laudantium sequi illum veritatis tempora consequuntur quia atque modi omnis quasi ducimus consectetur, rem eos!</p>
+                </details>
+            </section>
+    </main>
+    <footer class="rodape">  
+        <p>Copyright &copy; 2023</p>
+    </footer>  
+</body>
+</html>

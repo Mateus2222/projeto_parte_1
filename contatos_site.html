@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Mateus Polari" >
+    <meta name="description" content="formulario_contatos">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="formulario.css">
+    <title>Contatos</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            MyNet
+        </div>
+        <nav class="header-nav">
+            <ul class="header-nav__list">
+                <li><a href="home_site.html">Home</a></li>
+                <li><a href="planos_site.html">Planos</a></li>
+                <li><a href="suporte_site.html">Suporte</a></li>
+                <li><a href="contatos_site.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-formulario">
+        <h1 class="main-formulario__title">Formulário para contato</h1>
+        <form action="" autocomplete="off">
+            <fieldset>
+                <label for="name">Nome:</label>
+                <input class="main-formulario__campo" name="name" type="text" id="name" placeholder="Digete seu nome completo">
+                <br>
+                <br>
+                <label for="email">E-mail:</label>
+                <input class="main-formulario__campo" name="email" type="email" id="email" placeholder="Digete seu E-mail">
+                <br>
+                <br>
+                <label for="motivo">Motivo:</label>
+                <input class="main-formulario__campo" name="motivo" type="text" id="motivo" placeholder="Digete o motivo para seu contato">
+                <br>
+                <br>
+                <label for="mensagem">Mensagem:</label>
+                <textarea class="main-formulario__campo" name="mensagem" rows="7" maxlength="1000" minlength="20" type="text" id="mensagem" placeholder="Digete sua mensagem"> </textarea> 
+                <br>
+                <br>
+                <input class="btn" type="submit">
+            </fieldset>
+        </form>
+    </main>
+
+    <footer class="rodape">  
+        <p>Copyright &copy; 2023</p>
+    </footer>  
+</body>
+</html>
