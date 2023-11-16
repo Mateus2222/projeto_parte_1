@@ -7,7 +7,7 @@ function colocar_planos(planos){
     if(planos.dados_moveis == '' && planos.redes_sociais == ''){
         return `        
             <div class="pricing-plan">
-                <h2 class="pricing-plan__title">Premium</h2>
+                <h2 class="pricing-plan__title">Basico</h2>
                 <p><span class="pricing-plan__price">R$ 90</span> por/mês</p>
                 <ul class="pricing-plan__benefits">
                     <li>${planos.internet_residencial}</li>
@@ -20,7 +20,7 @@ function colocar_planos(planos){
     else if(planos.redes_sociais == ''){
         return `        
             <div class="pricing-plan">
-                <h2 class="pricing-plan__title">Premium</h2>
+                <h2 class="pricing-plan__title">Intermediario</h2>
                 <p><span class="pricing-plan__price">R$ 90</span> por/mês</p>
                 <ul class="pricing-plan__benefits">
                     <li>${planos.internet_residencial}</li>
